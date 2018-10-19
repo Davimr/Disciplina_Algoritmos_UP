@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ex07", "ex07\ex07.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trabalho condicionais", "trabalho condicionais\trabalho condicionais.vcxproj", "{0E09BC47-C610-4857-B2C1-E23345175753}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trabalho condicionais case", "trabalho condicionais case\trabalho condicionais case.vcxproj", "{010C1E45-6981-4B38-9E70-FB9842FE94CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -77,6 +79,14 @@ Global
 		{0E09BC47-C610-4857-B2C1-E23345175753}.Release|Win32.Build.0 = Release|Win32
 		{0E09BC47-C610-4857-B2C1-E23345175753}.Release|x64.ActiveCfg = Release|x64
 		{0E09BC47-C610-4857-B2C1-E23345175753}.Release|x64.Build.0 = Release|x64
+		{010C1E45-6981-4B38-9E70-FB9842FE94CA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{010C1E45-6981-4B38-9E70-FB9842FE94CA}.Debug|Win32.Build.0 = Debug|Win32
+		{010C1E45-6981-4B38-9E70-FB9842FE94CA}.Debug|x64.ActiveCfg = Debug|x64
+		{010C1E45-6981-4B38-9E70-FB9842FE94CA}.Debug|x64.Build.0 = Debug|x64
+		{010C1E45-6981-4B38-9E70-FB9842FE94CA}.Release|Win32.ActiveCfg = Release|Win32
+		{010C1E45-6981-4B38-9E70-FB9842FE94CA}.Release|Win32.Build.0 = Release|Win32
+		{010C1E45-6981-4B38-9E70-FB9842FE94CA}.Release|x64.ActiveCfg = Release|x64
+		{010C1E45-6981-4B38-9E70-FB9842FE94CA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
