@@ -1,2 +1,4 @@
 # Disciplina_Algoritmos_UP
-Trabalhos realizados na disciplina de algoritmos dois.
+
+Codigos gerados durante as aulas.
+Constam apenas os arquivos.cpp 
