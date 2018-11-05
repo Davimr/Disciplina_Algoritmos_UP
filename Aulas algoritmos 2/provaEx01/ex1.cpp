@@ -31,26 +31,28 @@ int main() {
 		if (media < 40) {
 			conceito = 'E';
 			cont_e = cont_e + 1;
-		}
-
-		if (media >= 40 & media < 60) {
-			conceito = 'D';
-		}
-
-		if (media >= 60 & media < 75) {
-			conceito = 'C';
-		}
-
-		if (media >= 75 & media < 90) {
-			conceito = 'B';
-		}
-
-		if (media >= 90) {
-			conceito = 'A';
-			cont_a = cont_a + 1;
-		}
+		}else{
+		    if (media >= 40 & media < 60) {
+			    conceito = 'D';
+		    }else {
+		        if (media >= 60 & media < 75) {
+			        conceito = 'C';
+		        }else {
+		            if (media >= 75 & media < 90) {
+			            conceito = 'B';
+					}else {
+		                if (media >= 90) {
+			                conceito = 'A';
+			                cont_a = cont_a + 1;
+	                 	}
+	                 }
+	             }
+	         }
+	     }
 
 		printf("\n\nO aluno %d teve a media %.2f com conceito %c.", codigo, media, conceito);
+		
+		media = 0.0;
 
 		printf("\n\n\nDigite o codigo do proximo aluno ou zero para sair: ");
 		fflush(stdin);
