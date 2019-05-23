@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Estilo de CSS utilizado -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+  	<style> 
+
+  		#externa {
+  			position: relative;
+  			width: 100%;
+  			height: 100%;
+  			background:#4269CE;
+  		}
+
+
+	   #estilo {
+	   	border-radius: 50px;
+	   	border: 1px solid #C0C0C0;
+	   	padding: 20px;
+	   	width: 250px;
+	   	height: 15px;
+	   	font-size: 13px;
+	   	font-family: ubuntu;
+	   	font-color: #C0C0C0;
+	   }
+
+	   #estilo2 {
+	    border-radius: 50px;
+	   	border: 1px solid #C0C0C0;
+	   	padding: 20px;
+	   	width: 515px;
+	   	height: 15px;
+	    font-size: 13px;
+	    font-family: ubuntu;
+	    font-color: #C0C0C0;
+	   }
+
+	   	#estilo3 {
+	   	border-radius: 50px;
+	   	padding: 20px;
+	   	width: 100%;
+	   	height: 15px;
+	   	font-size: 16px;
+	   	font-family: ubuntu;
+	   	font-color: white;
+	   	text-align: center;
+	   	vertical-align: center;
+	   }
+
+	   .btn-primary {
+    color: #fff;
+    background-color: #4269CE;
+}
+
+	</style>
+
+
+    <title>FrontChallenge</title>
+
+  </head>
+
+  <body id="externa">
+
+  	<div class="container">
+		
+		<div class="row justify-content-md-center" style="margin-top: auto; margin-bottom: auto">
+			 
+			 <div class="col" style="padding-left: 0px; padding-right: 0px;">
+				<img src="https://i.ibb.co/d58Dfmz/doguinho.png" class="img-fluid" alt="Imagem responsiva" style="width: 100%; height: auto">
+			 </div>
+			 
+			 <div class="col-7" style="color: white; background-color: white; text-align: center">
+
+			 	<h3 style="color: #262626; font-family: cursive; font-family: ubuntu">Create an Account!</h3>
+			 
+					<form>
+					  <div class="form-group" style="float: left; margin-right: 3%">
+						<input id="estilo" type="text" class="form-control" placeholder="First Name">
+					  </div>
+					  
+					  <div class="form-group" style="float: left">
+						<input id="estilo" type="text" class="form-control" placeholder="Phone">
+					  </div>
+
+					  <div class="form-group">
+						<input id="estilo2" type="email" class="form-control" placeholder="Email Adress">
+					  </div>
+
+					  <div class="form-group" style="float: left; margin-right: 3%">
+						<input id="estilo" type="text" class="form-control" placeholder="Password">
+					  </div>
+					  
+					  <div class="form-group" style="float: left">
+						<input id="estilo" type="text" class="form-control" placeholder="Repeat Password">
+					  </div>
+					  
+					  
+					</form>
+					<br/>
+					<br/>
+					<br/>
+
+					  <button id="estilo3" type="submit" class="btn btn-primary">Enviar</button>
+			 </div>
+			 
+		 </div>
+	</div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+
+
+  	
+    
+  </body>
+
+
+    <script type="text/javascript">
+
+    	var w = window.innerWidth;
+    	var h = window.innerHeight;
+    	minhaDiv = document.getElementById("minhaDiv");
+    	meuCard = document.getElementById("meuCard");
+    	meuCardH = meuCard.clientHeight;
+    	meuCardW = meuCard.clientWidth;
+
+    	minhaDiv.style.height = h;
+    	meuCard.style.position = "absolute";
+    	meuCard.style.left = (w-meuCardW)/2;
+    	meuCard.style.top = (h-myCardH)/2;
+
+    </script>
+
+</html>
