@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #2b63ec;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "montserrat", sans-serif;
+}
+
+.container{
+  width: 1100px;
+  height: 700px;
+  background-color: #95a5a6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formulario{
+  width: 650px;
+  height: 100%;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.imagem{
+  width: 450px;
+  height: 100%;
+  background: url(https://i.ibb.co/Njk3BRy/Webp-net-resizeimage.png);
+  background-color: #ECB42B;
+}
+
+.formularioDados{
+  padding-top: 60px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.formularioDados h3{
+  font-family: "Ubuntu", cursive;
+  color: #2d3436;
+  font-size: 26px;
+}
+
+.dados{
+  width: 250px;
+  height: 45px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-family: "Ubuntu", cursive;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 255.5);
+  border: 1px solid #C0C0C0;
+  outline: inherit;
+}
+
+.dados:hover{
+  opacity: 0.9;
+}
+
+.numeroTelefone{
+  width: 250px;
+  height: 45px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-family: "Ubuntu", cursive;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 15px 0px;
+  background: rgba(255, 255, 255, 255.5);
+  border: 1px solid #C0C0C0;
+  outline: inherit;
+}
+
+.numeroTelefone:hover{
+  opacity: 0.9;
+}
+
+.dados1{
+  width: 500px;
+  height: 45px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-family: "Ubuntu", cursive;
+  border: 1px solid #C0C0C0;
+  padding: 20px;
+  box-sizing: border-box;
+  outline: inherit;
+}
+
+.dados1:hover{
+  opacity: 0.9;
+}
+
+.criarContaBotao{
+  width: 250px;
+  height: 45px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-family: "Ubuntu", cursive;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 15px 0px;
+  background: #3498db;
+  border: 1px solid #C0C0C0;
+  outline: inherit;
+  color: white;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.criarContaBotao:hover{
+  background: #2980b9;
+}
+
+.jaPossui{
+  position: relative;
+  bottom: -110px;
+  font-family: "Ubuntu", cursive;
+  color: #2d3436;
+}
+
+.jaPossui a{
+    text-decoration: none;
+    color: #2d3436;
+}
+
+.jaPossui a:hover{
+  opacity: 0.9;
+}
+
+.botaoGoogle{
+  width: 195px;
+  display: block;
+  height: 45px;
+  background: url(https://developers.google.com/identity/images/btn_google_signin_light_normal_web.png);
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  border: 0.8px solid #95a5a6;
+  outline: none;
+  cursor: pointer;
+  margin: 10px auto 0px auto;
+}
+
+.botaoGoogle:hover{
+  opacity: 0.8;
+}
+
+.botaoFacebook{
+  width: 195px;
+  display: block;
+  height: 45px;
+  background: url(https://i.ibb.co/fpr3t4Y/Webp-net-resizeimage-1.png);
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  border: 0.8px solid #40739e;
+  outline: none;
+  cursor: pointer;
+  margin: 10px auto 0px auto;
+}
+
+.botaoFacebook:hover{
+  opacity: 0.9;
+}
